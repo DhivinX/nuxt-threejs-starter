@@ -34,6 +34,9 @@ devDependencies:
   '@types/three':
     specifier: ^0.169.0
     version: 0.169.0
+  nuxi:
+    specifier: ^3.15.0
+    version: 3.15.0
 
 packages:
 
@@ -4007,7 +4010,6 @@ packages:
     resolution: {integrity: sha512-ZVu45nuDrdb7nzKW2kLGY/N1vvFYLLbUVX6gUYw4BApKGGu4+GktTR5o48dGVgMYX9A8chaugl7TL9ZYmwC9Mg==}
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
-    dev: false
 
   /nuxt@3.14.0(typescript@5.6.3)(vite@5.4.10):
     resolution: {integrity: sha512-9RvptD0czK683RcD7tmrYtOk86TiW485gZob/tj1YiLVx+gmKJsq+1+kbl6XTg/cg9mbV9lNfErlCNPgXurs2A==}

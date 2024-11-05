@@ -4,5 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
 
-  modules: ['@pinia/nuxt']
+  modules: ['@pinia/nuxt'],
+
+  sourcemap: {
+    server: true,
+    client: true
+  }
 })
